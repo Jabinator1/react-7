@@ -1,4 +1,6 @@
 import React from 'react'
+import Counter from './Counter'
+import MovieList from './MovieList'
 import '../style.css'
 import Counter from './Counter'
 import MovieList from './MovieList'
@@ -16,8 +18,13 @@ const Hooks = props => {
           Docs
         </a>
       </h1>
+<<<<<<< HEAD
       <Counter />
       <MovieList />
+=======
+      <Counter/>
+      <MovieList/>
+>>>>>>> 6ee7507e7fd0df58d03546f89d3717013296fa4d
     </section>
   )
 }

@@ -3,7 +3,8 @@ import '../style.css'
 import Toggle from './Toggle'
 import ToggleRenderProps from './ToggleRenderProps'
 
-const RenderProps = props => {
+
+const RenderProps = (props) => {
   return (
     <section className="advanced-react-section">
       <h1>
@@ -37,6 +38,6 @@ const RenderProps = props => {
         )}
       </ToggleRenderProps>
     </section>
-  )
-}
-export default RenderProps
+  );
+};
+export default RenderProps;
